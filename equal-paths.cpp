@@ -35,7 +35,6 @@ bool equalPaths(Node * root)
     return true;
   }
 
-  Node* currentNode = root;
 
   if(root->left == nullptr && root->right == nullptr){
     return true;
